@@ -1,0 +1,37 @@
+.container{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-evenly;
+  align-items:flex-end;
+  background-color: #424242;  
+}
+table {
+    width: 100%;   
+  }
+  
+  .mat-column-userId{
+    width: 5%;
+  }
+   
+  .mat-column-id{
+    width:5%;
+  } 
+  ::ng-deep th.mat-header-cell{
+    width: 200px;
+    min-width: 200px;
+    border:3px solid grey; 
+  }
+  th.mat-header-cell{
+    font-size: large;
+    text-align:center;
+  }
+  td.mat-cell{
+    text-align:center;  
+  }
+   ::ng-deep td.mat-cell{
+    width: 200px;
+    min-width: 200px;
+    border:3px solid grey;
+  } 
+  
+  
